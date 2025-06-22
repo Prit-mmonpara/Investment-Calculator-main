@@ -1,0 +1,10 @@
+{
+  "buildCommand": "ng build",
+  "outputDirectory": "dist/essentials-practice/browser",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
